@@ -1,0 +1,146 @@
+.about__img, .lop1, .lop2, .lop3{
+    width:300px;
+    height:200px;
+    
+}
+.about__img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.about__img .lop1{
+    top:0;
+    left:0;
+    position: absolute;
+    transition: 0.4s;
+}
+.about__img:hover .lop1{
+    transform: scale(1.2);
+}
+.about__img .lop2{
+    opacity:0;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    transition: 0.4s;
+ }
+.about__img:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+
+}
+.about__img .lop3{
+    position: absolute;
+    margin-left: 80px;
+    top: 90px;
+    left: 55px;
+    color: white;
+    font-size: 30px;
+    opacity:0;
+    transition: 0.4s;
+}
+.about__img:hover .lop3{
+    opacity: 1;
+}
+
+.button1 {
+    display: inline-block;
+    border: 2px solid #fff ;
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+  }
+
+  .button2{
+    display: inline-block;
+    background-color: #00bec9;
+    margin-right: 300px;
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button3{
+    display: inline-block;
+    background-color: #00bec9;
+    margin-right: -500px;
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    margin-left: 950px;
+    margin-top: -50px;
+    transition: .3s;
+}
+
+.hop5icon{
+    color: #000000;
+    margin-right: 250px;
+    text-align: center;
+    
+}
+.icon1 {
+    width: 30px;
+    height: 30px;
+    background-color: #fcc302;
+    border-radius: 19px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.hop2-img{
+    width: 100%;
+    height: 550px;
+    background-image: url(anhnen.png)
+    opacity: 82%;
+}
+
+.hop2{
+    width: 100%;
+    height: 550px;
+    background-color: #ffe17f;
+    opacity: 100%;
+}
+
+.icone_hop2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    gap: 300px;
+}
+
+.hop6{
+    width: 100%;
+    height: 550px;
+    background-color: #fcc302;
+    opacity: 100%;
+}
+.hop6-img{
+    width: 100%;
+    height: 550px;
+    background-image: url(anhnen.png)
+    opacity: 82%;
+}
+.icon-hop6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    gap: 300px;
+}
+
+
+.img-captionhop6{
+    margin-left: 50px;
+}
+
+.icon-hop6 h2{
+    text-align: center;
+    padding top: 500px;
+    color: #FFF;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/css1.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/search.css">
+        <script src="https://kit.fontawesome.com/7dc508f75f.js" crossorigin="anonymous"></script>
+        <style media="all" id="fa-v4-font-face">/*!
+            * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+            * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+            * Copyright 2023 Fonticons, Inc.
+            */@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-regular-400.ttf) format("truetype");unicode-range:u+f003,u+f006,u+f014,u+f016-f017,u+f01a-f01b,u+f01d,u+f022,u+f03e,u+f044,u+f046,u+f05c-f05d,u+f06e,u+f070,u+f087-f088,u+f08a,u+f094,u+f096-f097,u+f09d,u+f0a0,u+f0a2,u+f0a4-f0a7,u+f0c5,u+f0c7,u+f0e5-f0e6,u+f0eb,u+f0f6-f0f8,u+f10c,u+f114-f115,u+f118-f11a,u+f11c-f11d,u+f133,u+f147,u+f14e,u+f150-f152,u+f185-f186,u+f18e,u+f190-f192,u+f196,u+f1c1-f1c9,u+f1d9,u+f1db,u+f1e3,u+f1ea,u+f1f7,u+f1f9,u+f20a,u+f247-f248,u+f24a,u+f24d,u+f255-f25b,u+f25d,u+f271-f274,u+f278,u+f27b,u+f28c,u+f28e,u+f29c,u+f2b5,u+f2b7,u+f2ba,u+f2bc,u+f2be,u+f2c0-f2c1,u+f2c3,u+f2d0,u+f2d2,u+f2d4,u+f2dc}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-v4compatibility.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.5.1/webfonts/free-fa-v4compatibility.ttf) format("truetype");unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a}</style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<link rel="shortcut icon" href="" type="image/x-icon">
+        <title>Company Logo</title>
+    </head>
+ 
+    
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            
+            <nav class="nav bd-grid">
+                
+                <div>
+                    <a href="#" class="nav__logo"> <img src="logo.png" width="80%"></a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Service</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Search</a></li>
+                    </ul>
+                </div>
+                <div class="search1">
+                    <input type="text" name="text" class="input" placeholder="Search...">
+                    <button class="search__btn">
+                        <i style="color: white;" class="fas fa-search"></i>
+                    </button>
+                  </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="l-main">
+            
+            <!--===== p1 =====-->
+            <section class="home" id="home">
+                <div class="home__data">
+                    <h1 class="home__title"><br>Paws and Love: Caring for Pets, One Snuggle at a Time! <br> </h1>
+                    <p>Taking care of a pet is not only a responsibility, but also an act of love and creating memorable memories in everyday life.</p>             
+                    <a href="" class="button">Contact Us</a>
+                    <a href="" class="button1">Our Service</a>
+                </div>
+                <div class="home__social">
+                </div>
+                <div class="home__img">
+                  <img src="p1_anh1.png">
+                </div>  
+            </section>
+
+
+            <!--===== p2 =====-->
+            <section class="about section " id="about">
+              
+
+                <div class="about__container bd-grid">
+                    <div class="about_content">
+                        <h2 class="about__subtitle">As a veterinarian and lover of animals.</h2>
+                        <p class="about__text">Taking care of pets requires love, attention, and commitment to ensure their well-being and happiness.</p>           
+                    </div> 
+
+                    <div  class="about__img">
+                        <img src="p2_anh1.png" alt="" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="about_content">
+                    <a href="" class="button2">Our Service</a>
+                    </div>
+                                                      
+                </div>
+            </section>
+
+            <!--===== p3=====-->
+            <section class="work section" id="work">
+                   
+                   <div>
+                    <h2 class="skills__subtitle">Title here</h2>
+                    <p class="skills__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nostrum quia dolor in, reprehenderit, facilis quae eveniet, quibusdam quaerat voluptas ea voluptate doloribus repudiandae eius vel officia cum nihil explicabo.</p>
+                    </div>
+
+                    <div class="work__container bd-grid">
+
+                        <a href="#" class="work__img">
+                            <img src="anh1.png" alt="">
+                            <h2></br>Nutrition </h2>
+                            <p>Provide proper nutrition by feeding your pet a balanced and appropriate diet for their species and age.</p>
+                        </a>
+                        
+                        <a href="#" class="work__img">
+                            <img src="anh2.png" alt="">
+                            <h2></br>Healthcare</h2>
+                            <p>Regularly attend to their healthcare needs, including vaccinations, regular check-ups, and prompt treatment of any illnesses or injuries.</p>
+                        </a>
+                        <a href="#" class="work__img">
+                            <img src="anh3.png" alt="">
+                            <h2></br>Enviroment</h2>
+                            <p>Ensure a loving and stimulating environment, offering physical exercise, mental stimulation, and social interaction to promote the overall well-being of your pet.</p>
+                        </a>
+                      
+                 
+                </div>
+            </section>
+            
+
+              <!--===== p4 =====-->
+              <section class="skills section" id="skills">
+              
+
+                <div class="skills__container bd-grid">
+
+                    <div class="about__img">
+                        <img src="p2_anh2.png" alt="" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">As a veterinarian and lover of animals.</h2>
+                        <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam temporibus ex ab sed placeat necessitatibus quos ullam incidunt adipisci sit in at atque aliquam, provident doloremque rerum unde? Accusamus, rerum!</p>           
+                    </div> 
+                    <a href="" class="button3">Our Service</a>
+                                                      
+                </div>
+            </section>
+            
+           <!--======page5========-->
+            <section class="work section" id="work">
+                   
+                   <div>
+                    <h2 class="skills__subtitle">Types of pets</h2>
+                    <p class="skills__text">Lorem ipsum .</p>
+                    </div>
+
+                    <div class="work__container bd-grid">
+
+                        <div class="work__img">
+                            <img src="cho1.png" alt="">
+                            <h2></br>$30</h2>
+                            <a href="" class="button2">Buy now</a>
+                        </div>
+                        
+                        <div class="work__img">
+                            <img src="cho2.png" alt="">
+                            <h2></br>$25</h2>
+                            <a href="" class="button2">Buy now</a>
+                        </div>
+                        <div class="work__img">
+                            <img src="cho3.png" alt="">
+                            <h2></br>$20</h2>
+                            <a href="" class="button2">Buy now</a>
+                        </div>
+                      
+                 
+                </div>
+            </section>
+
+            <!--========page6 bac si===============-->
+            <section class="skill section" id="skill">
+                   
+                <div>
+                 <h2 class="skills__subtitle1">The vatcare team</h2>
+                 <p class="skills__text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                 </div>
+
+                 <div class="work__container bd-grid">
+
+                     <div class="work__img">
+                         <img src="bs1.png" alt="">
+                         <h2></br>Jenifer Mullen</h2>
+                         <p>VETERINARY</p>
+
+                         <div class="hop5icon">
+                            <i class="icon1 fa fa-instagram" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-facebook" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-twitter" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-phone" aria-hidden="true"></i>
+                         </div>
+                       
+                     </div>
+                     
+                     <div class="work__img">
+                         <img src="bs2.png" alt="">
+                         <h2></br>Sheeren Collins</h2>
+                         <p>ADMINISTRATION</p>
+                         <div class="hop5icon">
+                            <i class="icon1 fa fa-instagram" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-facebook" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-twitter" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-phone" aria-hidden="true"></i>
+                         </div>
+                      
+                     </div>
+                     <div class="work__img">
+                         <img src="bs3.png" alt="">
+                         <h2></br>Jenifer Collins</h2>
+                         <p>VETERINARY</p>
+                         <div class="hop5icon">
+                            <i class="icon1 fa fa-instagram" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-facebook" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-twitter" aria-hidden="true"></i>
+                            <i class="icon1 fa fa-phone" aria-hidden="true"></i>
+                         </div>
+                     </div>
+                   
+              
+             </div>
+         </section>
+
+            <!--===========page7===============-->
+            <div class="hop6">
+                <div class="hop6-img">
+                    <div class="icon-hop6">
+                        <div class="img-captionhop6">
+                        <img src="icon1.png" alt="icon">
+                        <h3 style="text-align: center;
+                                    padding-top: 20px;
+                                    color: white;
+                                    ">+34793</h3>
+                        <h2 style="width: 250px;
+                                    height: 50px;
+                                    text-align: center;
+                                    color: white;">HAPPY CLIENTS</h2>
+                        </div>
+                        <div class="img-captionhop6">
+                            <img style="margin-left: 50px;" src="icon2.png" alt="icon">
+                            <h3 style="text-align: center;
+                                        padding-top: 20px;
+                                        color: white;
+                                        ">+45382</h3>
+                            <h2 style="width: 250px;
+                                        height: 50px;
+                                        text-align: center;
+                                        color: white;">DEPARTAMENT</h2>
+                            </div>
+                            <div class="img-captionhop6">
+                                <img style="margin-left: 50px;" src="icon3.png" alt="icon">
+                                <h3 style="text-align: center;
+                                            padding-top: 20px;
+                                            color: white;
+                                            ">+54762</h3>
+                                <h2 style="width: 250px;
+                                            height: 50px;
+                                            text-align: center;
+                                            color: white;">VACCINATIONS</h2>
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--===========page8 recent post===============-->
+            <section class="skill section" id="skill">
+                   
+                <div>
+                 <h2 class="skills__subtitle1">Recent Posts</h2>
+                 <p class="skills__text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                 </div>
+
+                 <div class="work__container bd-grid">
+
+                     <div class="work__img">
+                         <img src="r1.png" alt="">
+                         <h2></br>As a veterinarian and lover of animals</h2>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                       
+                     </div>
+                     
+                     <div class="work__img">
+                         <img src="r2.png" alt="">
+                         <h2></br>As a veterinarian and lover of animals</h2>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                      
+                     </div>
+                     <div class="work__img">
+                         <img src="r3.png" alt="">
+                         <h2></br>As a veterinarian and lover of animals</h2>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                     </div>
+                   
+              
+             </div>
+         </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+          
+
+            <div class="footer1">
+                <h2>About</h2>
+                <li><a href>"History" </a></li>
+                <li><a href>"Our Team" </a></li>
+                <li><a href>"Brand Guidelines" </a></li>
+                <li><a href>"Terms & Condition" </a></li>
+                <li><a href>"Privacy Policy" </a></li>
+            </div>
+            <div class="footer1">
+                <h2>Services</h2>
+                <li><a href>"How to Order" </a></li>
+                <li><a href>"Our Product" </a></li>
+                <li><a href>"Order Status" </a></li>
+                <li><a href>"Promo" </a></li>
+                <li><a href>"Payment Method" </a></li>
+            </div>
+
+
+            <div class="id-footer">
+                <h2>Contact</h2>
+
+                <div class="search1">
+                    <input type="text" name="text" class="input" placeholder="Search...">
+                    <button class="search__btn">
+                        <i style="color: white;" class="fas fa-search"></i>
+                    </button>
+                  </div>
+           <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            </div>
+            </div>
+        
+        </footer>
+
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
